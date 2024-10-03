@@ -25,7 +25,7 @@ async function sendMessage(chatId, message) {
       message,
       random_id: Math.floor(Math.random() * 0xffffffff),
     });
-    console.log(Сообщение "+" отправлено в чат ${chatId});
+    console.log(`Сообщение "+" отправлено в чат ${chatId}`);
   } catch (error) {
     console.error('Ошибка при отправке сообщения:', error);
   }
