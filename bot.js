@@ -37,7 +37,7 @@ const allowedGroups = [-1901933299]; // ID группы
 // Обработка ошибок
 const getError = (error) => {
   const { error_code, error_message } = error;
-  return ${error_code}: ${error_message};
+  return `${error_code}: ${error_message}`;
 };
 
 // Отправка кода для входа
